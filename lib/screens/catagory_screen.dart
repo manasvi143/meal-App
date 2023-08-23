@@ -23,9 +23,9 @@ class CatagoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Select a catagory'),
-      ),
+      // appBar: AppBar(
+      //   title: const Text('Select a catagory'),
+      // ),
       body: GridView(
           padding: const EdgeInsets.all(24),
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
